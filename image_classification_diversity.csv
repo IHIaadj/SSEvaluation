@@ -1,0 +1,597 @@
+model_name,block_type
+alexnet,"['Conv2d', 'ReLU', 'MaxPool2d']"
+alexnet,Conv2d
+alexnet,AdaptiveAvgPool2d
+alexnet,Linear
+alexnet,Dropout
+alexnet,ReLU
+convnext_base,"['Conv2d', 'Permute', 'LayerNorm', 'Linear', 'GELU']"
+convnext_base,LayerNorm2d
+convnext_base,Conv2d
+convnext_base,Permute
+convnext_base,StochasticDepth
+convnext_base,AdaptiveAvgPool2d
+convnext_base,Linear
+convnext_base,Flatten
+convnext_large,"['Conv2d', 'Permute', 'LayerNorm', 'Linear', 'GELU']"
+convnext_large,LayerNorm2d
+convnext_large,Conv2d
+convnext_large,Permute
+convnext_large,StochasticDepth
+convnext_large,AdaptiveAvgPool2d
+convnext_large,Linear
+convnext_large,Flatten
+convnext_small,"['Conv2d', 'Permute', 'LayerNorm', 'Linear', 'GELU']"
+convnext_small,LayerNorm2d
+convnext_small,Conv2d
+convnext_small,Permute
+convnext_small,StochasticDepth
+convnext_small,AdaptiveAvgPool2d
+convnext_small,Linear
+convnext_small,Flatten
+convnext_tiny,"['Conv2d', 'Permute', 'LayerNorm', 'Linear', 'GELU']"
+convnext_tiny,LayerNorm2d
+convnext_tiny,Conv2d
+convnext_tiny,Permute
+convnext_tiny,StochasticDepth
+convnext_tiny,AdaptiveAvgPool2d
+convnext_tiny,Linear
+convnext_tiny,Flatten
+densenet121,"['BatchNorm2d', 'ReLU', 'Conv2d', 'BatchNorm2d', 'ReLU']"
+densenet121,MaxPool2d
+densenet121,Conv2d
+densenet121,Linear
+densenet121,AvgPool2d
+densenet121,BatchNorm2d
+densenet121,ReLU
+densenet161,"['BatchNorm2d', 'ReLU', 'Conv2d', 'BatchNorm2d', 'ReLU']"
+densenet161,MaxPool2d
+densenet161,Conv2d
+densenet161,Linear
+densenet161,AvgPool2d
+densenet161,BatchNorm2d
+densenet161,ReLU
+densenet169,"['BatchNorm2d', 'ReLU', 'Conv2d', 'BatchNorm2d', 'ReLU']"
+densenet169,MaxPool2d
+densenet169,Conv2d
+densenet169,Linear
+densenet169,AvgPool2d
+densenet169,BatchNorm2d
+densenet169,ReLU
+densenet201,"['BatchNorm2d', 'ReLU', 'Conv2d', 'BatchNorm2d', 'ReLU']"
+densenet201,MaxPool2d
+densenet201,Conv2d
+densenet201,Linear
+densenet201,AvgPool2d
+densenet201,BatchNorm2d
+densenet201,ReLU
+efficientnet_b0,"['Conv2d', 'BatchNorm2d', 'SiLU', 'Conv2d', 'BatchNorm2d']"
+efficientnet_b0,Conv2d
+efficientnet_b0,Sigmoid
+efficientnet_b0,AdaptiveAvgPool2d
+efficientnet_b0,StochasticDepth
+efficientnet_b0,Linear
+efficientnet_b0,Dropout
+efficientnet_b0,BatchNorm2d
+efficientnet_b0,SiLU
+efficientnet_b1,"['Conv2d', 'BatchNorm2d', 'SiLU', 'Conv2d', 'BatchNorm2d']"
+efficientnet_b1,Conv2d
+efficientnet_b1,Sigmoid
+efficientnet_b1,AdaptiveAvgPool2d
+efficientnet_b1,StochasticDepth
+efficientnet_b1,Linear
+efficientnet_b1,Dropout
+efficientnet_b1,BatchNorm2d
+efficientnet_b1,SiLU
+efficientnet_b2,"['Conv2d', 'BatchNorm2d', 'SiLU', 'Conv2d', 'BatchNorm2d']"
+efficientnet_b2,Conv2d
+efficientnet_b2,Sigmoid
+efficientnet_b2,AdaptiveAvgPool2d
+efficientnet_b2,StochasticDepth
+efficientnet_b2,Linear
+efficientnet_b2,Dropout
+efficientnet_b2,BatchNorm2d
+efficientnet_b2,SiLU
+efficientnet_b3,"['Conv2d', 'BatchNorm2d', 'SiLU', 'Conv2d', 'BatchNorm2d']"
+efficientnet_b3,Conv2d
+efficientnet_b3,Sigmoid
+efficientnet_b3,AdaptiveAvgPool2d
+efficientnet_b3,StochasticDepth
+efficientnet_b3,Linear
+efficientnet_b3,Dropout
+efficientnet_b3,BatchNorm2d
+efficientnet_b3,SiLU
+efficientnet_b4,"['Conv2d', 'BatchNorm2d', 'SiLU', 'Conv2d', 'BatchNorm2d']"
+efficientnet_b4,Conv2d
+efficientnet_b4,Sigmoid
+efficientnet_b4,AdaptiveAvgPool2d
+efficientnet_b4,StochasticDepth
+efficientnet_b4,Linear
+efficientnet_b4,Dropout
+efficientnet_b4,BatchNorm2d
+efficientnet_b4,SiLU
+efficientnet_b5,"['Conv2d', 'BatchNorm2d', 'SiLU', 'Conv2d', 'BatchNorm2d']"
+efficientnet_b5,Conv2d
+efficientnet_b5,Sigmoid
+efficientnet_b5,AdaptiveAvgPool2d
+efficientnet_b5,StochasticDepth
+efficientnet_b5,Linear
+efficientnet_b5,Dropout
+efficientnet_b5,BatchNorm2d
+efficientnet_b5,SiLU
+efficientnet_b6,"['Conv2d', 'BatchNorm2d', 'SiLU', 'Conv2d', 'BatchNorm2d']"
+efficientnet_b6,Conv2d
+efficientnet_b6,Sigmoid
+efficientnet_b6,AdaptiveAvgPool2d
+efficientnet_b6,StochasticDepth
+efficientnet_b6,Linear
+efficientnet_b6,Dropout
+efficientnet_b6,BatchNorm2d
+efficientnet_b6,SiLU
+efficientnet_b7,"['Conv2d', 'BatchNorm2d', 'SiLU', 'Conv2d', 'BatchNorm2d']"
+efficientnet_b7,Conv2d
+efficientnet_b7,Sigmoid
+efficientnet_b7,AdaptiveAvgPool2d
+efficientnet_b7,StochasticDepth
+efficientnet_b7,Linear
+efficientnet_b7,Dropout
+efficientnet_b7,BatchNorm2d
+efficientnet_b7,SiLU
+efficientnet_v2_l,"['Conv2d', 'BatchNorm2d', 'SiLU', 'Conv2d', 'BatchNorm2d']"
+efficientnet_v2_l,Conv2d
+efficientnet_v2_l,AdaptiveAvgPool2d
+efficientnet_v2_l,StochasticDepth
+efficientnet_v2_l,Sigmoid
+efficientnet_v2_l,Linear
+efficientnet_v2_l,Dropout
+efficientnet_v2_l,BatchNorm2d
+efficientnet_v2_l,SiLU
+efficientnet_v2_m,"['Conv2d', 'BatchNorm2d', 'SiLU', 'Conv2d', 'BatchNorm2d']"
+efficientnet_v2_m,Conv2d
+efficientnet_v2_m,AdaptiveAvgPool2d
+efficientnet_v2_m,StochasticDepth
+efficientnet_v2_m,Sigmoid
+efficientnet_v2_m,Linear
+efficientnet_v2_m,Dropout
+efficientnet_v2_m,BatchNorm2d
+efficientnet_v2_m,SiLU
+efficientnet_v2_s,"['Conv2d', 'BatchNorm2d', 'SiLU', 'Conv2d', 'BatchNorm2d']"
+efficientnet_v2_s,Conv2d
+efficientnet_v2_s,AdaptiveAvgPool2d
+efficientnet_v2_s,StochasticDepth
+efficientnet_v2_s,Sigmoid
+efficientnet_v2_s,Linear
+efficientnet_v2_s,Dropout
+efficientnet_v2_s,BatchNorm2d
+efficientnet_v2_s,SiLU
+googlenet,"['Conv2d', 'BatchNorm2d', 'MaxPool2d', 'Conv2d', 'BatchNorm2d']"
+googlenet,MaxPool2d
+googlenet,Conv2d
+googlenet,AdaptiveAvgPool2d
+googlenet,Linear
+googlenet,Dropout
+googlenet,BatchNorm2d
+inception_v3,"['Conv2d', 'BatchNorm2d', 'Conv2d', 'BatchNorm2d', 'Conv2d']"
+inception_v3,MaxPool2d
+inception_v3,Conv2d
+inception_v3,AdaptiveAvgPool2d
+inception_v3,Linear
+inception_v3,Dropout
+inception_v3,BatchNorm2d
+maxvit_t,"['BatchNorm2d', 'Conv2d', 'BatchNorm2d', 'GELU', 'Conv2d']"
+maxvit_t,Conv2d
+maxvit_t,Flatten
+maxvit_t,AdaptiveAvgPool2d
+maxvit_t,Sigmoid
+maxvit_t,WindowPartition
+maxvit_t,WindowDepartition
+maxvit_t,Identity
+maxvit_t,AvgPool2d
+maxvit_t,Linear
+maxvit_t,Dropout
+maxvit_t,StochasticDepth
+maxvit_t,GELU
+maxvit_t,BatchNorm2d
+maxvit_t,LayerNorm
+maxvit_t,SwapAxes
+maxvit_t,SiLU
+maxvit_t,Tanh
+mnasnet0_5,"['Conv2d', 'BatchNorm2d', 'ReLU', 'Conv2d', 'BatchNorm2d']"
+mnasnet0_5,Conv2d
+mnasnet0_5,Linear
+mnasnet0_5,Dropout
+mnasnet0_5,BatchNorm2d
+mnasnet0_5,ReLU
+mnasnet0_75,"['Conv2d', 'BatchNorm2d', 'ReLU', 'Conv2d', 'BatchNorm2d']"
+mnasnet0_75,Conv2d
+mnasnet0_75,Linear
+mnasnet0_75,Dropout
+mnasnet0_75,BatchNorm2d
+mnasnet0_75,ReLU
+mnasnet1_0,"['Conv2d', 'BatchNorm2d', 'ReLU', 'Conv2d', 'BatchNorm2d']"
+mnasnet1_0,Conv2d
+mnasnet1_0,Linear
+mnasnet1_0,Dropout
+mnasnet1_0,BatchNorm2d
+mnasnet1_0,ReLU
+mnasnet1_3,"['Conv2d', 'BatchNorm2d', 'ReLU', 'Conv2d', 'BatchNorm2d']"
+mnasnet1_3,Conv2d
+mnasnet1_3,Linear
+mnasnet1_3,Dropout
+mnasnet1_3,BatchNorm2d
+mnasnet1_3,ReLU
+mobilenet_v2,"['Conv2d', 'BatchNorm2d', 'ReLU6', 'Conv2d', 'BatchNorm2d']"
+mobilenet_v2,Conv2d
+mobilenet_v2,Linear
+mobilenet_v2,Dropout
+mobilenet_v2,ReLU6
+mobilenet_v2,BatchNorm2d
+mobilenet_v3_large,"['Conv2d', 'BatchNorm2d', 'Hardswish', 'Conv2d', 'BatchNorm2d']"
+mobilenet_v3_large,Conv2d
+mobilenet_v3_large,AdaptiveAvgPool2d
+mobilenet_v3_large,Linear
+mobilenet_v3_large,Hardswish
+mobilenet_v3_large,Dropout
+mobilenet_v3_large,BatchNorm2d
+mobilenet_v3_large,ReLU
+mobilenet_v3_large,Hardsigmoid
+mobilenet_v3_small,"['Conv2d', 'BatchNorm2d', 'Hardswish', 'Conv2d', 'BatchNorm2d']"
+mobilenet_v3_small,Conv2d
+mobilenet_v3_small,AdaptiveAvgPool2d
+mobilenet_v3_small,Linear
+mobilenet_v3_small,Hardswish
+mobilenet_v3_small,Dropout
+mobilenet_v3_small,BatchNorm2d
+mobilenet_v3_small,ReLU
+mobilenet_v3_small,Hardsigmoid
+regnet_x_16gf,"['Conv2d', 'BatchNorm2d', 'ReLU', 'Conv2d', 'BatchNorm2d']"
+regnet_x_16gf,Conv2d
+regnet_x_16gf,AdaptiveAvgPool2d
+regnet_x_16gf,Linear
+regnet_x_16gf,BatchNorm2d
+regnet_x_16gf,ReLU
+regnet_x_1_6gf,"['Conv2d', 'BatchNorm2d', 'ReLU', 'Conv2d', 'BatchNorm2d']"
+regnet_x_1_6gf,Conv2d
+regnet_x_1_6gf,AdaptiveAvgPool2d
+regnet_x_1_6gf,Linear
+regnet_x_1_6gf,BatchNorm2d
+regnet_x_1_6gf,ReLU
+regnet_x_32gf,"['Conv2d', 'BatchNorm2d', 'ReLU', 'Conv2d', 'BatchNorm2d']"
+regnet_x_32gf,Conv2d
+regnet_x_32gf,AdaptiveAvgPool2d
+regnet_x_32gf,Linear
+regnet_x_32gf,BatchNorm2d
+regnet_x_32gf,ReLU
+regnet_x_3_2gf,"['Conv2d', 'BatchNorm2d', 'ReLU', 'Conv2d', 'BatchNorm2d']"
+regnet_x_3_2gf,Conv2d
+regnet_x_3_2gf,AdaptiveAvgPool2d
+regnet_x_3_2gf,Linear
+regnet_x_3_2gf,BatchNorm2d
+regnet_x_3_2gf,ReLU
+regnet_x_400mf,"['Conv2d', 'BatchNorm2d', 'ReLU', 'Conv2d', 'BatchNorm2d']"
+regnet_x_400mf,Conv2d
+regnet_x_400mf,AdaptiveAvgPool2d
+regnet_x_400mf,Linear
+regnet_x_400mf,BatchNorm2d
+regnet_x_400mf,ReLU
+regnet_x_800mf,"['Conv2d', 'BatchNorm2d', 'ReLU', 'Conv2d', 'BatchNorm2d']"
+regnet_x_800mf,Conv2d
+regnet_x_800mf,AdaptiveAvgPool2d
+regnet_x_800mf,Linear
+regnet_x_800mf,BatchNorm2d
+regnet_x_800mf,ReLU
+regnet_x_8gf,"['Conv2d', 'BatchNorm2d', 'ReLU', 'Conv2d', 'BatchNorm2d']"
+regnet_x_8gf,Conv2d
+regnet_x_8gf,AdaptiveAvgPool2d
+regnet_x_8gf,Linear
+regnet_x_8gf,BatchNorm2d
+regnet_x_8gf,ReLU
+regnet_y_128gf,"['Conv2d', 'BatchNorm2d', 'ReLU', 'Conv2d', 'BatchNorm2d']"
+regnet_y_128gf,Conv2d
+regnet_y_128gf,Sigmoid
+regnet_y_128gf,AdaptiveAvgPool2d
+regnet_y_128gf,Linear
+regnet_y_128gf,BatchNorm2d
+regnet_y_128gf,ReLU
+regnet_y_16gf,"['Conv2d', 'BatchNorm2d', 'ReLU', 'Conv2d', 'BatchNorm2d']"
+regnet_y_16gf,Conv2d
+regnet_y_16gf,Sigmoid
+regnet_y_16gf,AdaptiveAvgPool2d
+regnet_y_16gf,Linear
+regnet_y_16gf,BatchNorm2d
+regnet_y_16gf,ReLU
+regnet_y_1_6gf,"['Conv2d', 'BatchNorm2d', 'ReLU', 'Conv2d', 'BatchNorm2d']"
+regnet_y_1_6gf,Conv2d
+regnet_y_1_6gf,Sigmoid
+regnet_y_1_6gf,AdaptiveAvgPool2d
+regnet_y_1_6gf,Linear
+regnet_y_1_6gf,BatchNorm2d
+regnet_y_1_6gf,ReLU
+regnet_y_32gf,"['Conv2d', 'BatchNorm2d', 'ReLU', 'Conv2d', 'BatchNorm2d']"
+regnet_y_32gf,Conv2d
+regnet_y_32gf,Sigmoid
+regnet_y_32gf,AdaptiveAvgPool2d
+regnet_y_32gf,Linear
+regnet_y_32gf,BatchNorm2d
+regnet_y_32gf,ReLU
+regnet_y_3_2gf,"['Conv2d', 'BatchNorm2d', 'ReLU', 'Conv2d', 'BatchNorm2d']"
+regnet_y_3_2gf,Conv2d
+regnet_y_3_2gf,Sigmoid
+regnet_y_3_2gf,AdaptiveAvgPool2d
+regnet_y_3_2gf,Linear
+regnet_y_3_2gf,BatchNorm2d
+regnet_y_3_2gf,ReLU
+regnet_y_400mf,"['Conv2d', 'BatchNorm2d', 'ReLU', 'Conv2d', 'BatchNorm2d']"
+regnet_y_400mf,Conv2d
+regnet_y_400mf,Sigmoid
+regnet_y_400mf,AdaptiveAvgPool2d
+regnet_y_400mf,Linear
+regnet_y_400mf,BatchNorm2d
+regnet_y_400mf,ReLU
+regnet_y_800mf,"['Conv2d', 'BatchNorm2d', 'ReLU', 'Conv2d', 'BatchNorm2d']"
+regnet_y_800mf,Conv2d
+regnet_y_800mf,Sigmoid
+regnet_y_800mf,AdaptiveAvgPool2d
+regnet_y_800mf,Linear
+regnet_y_800mf,BatchNorm2d
+regnet_y_800mf,ReLU
+regnet_y_8gf,"['Conv2d', 'BatchNorm2d', 'ReLU', 'Conv2d', 'BatchNorm2d']"
+regnet_y_8gf,Conv2d
+regnet_y_8gf,Sigmoid
+regnet_y_8gf,AdaptiveAvgPool2d
+regnet_y_8gf,Linear
+regnet_y_8gf,BatchNorm2d
+regnet_y_8gf,ReLU
+resnet101,"['Conv2d', 'BatchNorm2d', 'Conv2d', 'BatchNorm2d', 'Conv2d']"
+resnet101,MaxPool2d
+resnet101,Conv2d
+resnet101,AdaptiveAvgPool2d
+resnet101,Linear
+resnet101,BatchNorm2d
+resnet101,ReLU
+resnet152,"['Conv2d', 'BatchNorm2d', 'Conv2d', 'BatchNorm2d', 'Conv2d']"
+resnet152,MaxPool2d
+resnet152,Conv2d
+resnet152,AdaptiveAvgPool2d
+resnet152,Linear
+resnet152,BatchNorm2d
+resnet152,ReLU
+resnet18,"['Conv2d', 'BatchNorm2d', 'ReLU', 'Conv2d', 'BatchNorm2d']"
+resnet18,MaxPool2d
+resnet18,Conv2d
+resnet18,AdaptiveAvgPool2d
+resnet18,Linear
+resnet18,BatchNorm2d
+resnet18,ReLU
+resnet34,"['Conv2d', 'BatchNorm2d', 'ReLU', 'Conv2d', 'BatchNorm2d']"
+resnet34,MaxPool2d
+resnet34,Conv2d
+resnet34,AdaptiveAvgPool2d
+resnet34,Linear
+resnet34,BatchNorm2d
+resnet34,ReLU
+resnet50,"['Conv2d', 'BatchNorm2d', 'Conv2d', 'BatchNorm2d', 'Conv2d']"
+resnet50,MaxPool2d
+resnet50,Conv2d
+resnet50,AdaptiveAvgPool2d
+resnet50,Linear
+resnet50,BatchNorm2d
+resnet50,ReLU
+resnext101_32x8d,"['Conv2d', 'BatchNorm2d', 'Conv2d', 'BatchNorm2d', 'Conv2d']"
+resnext101_32x8d,MaxPool2d
+resnext101_32x8d,Conv2d
+resnext101_32x8d,AdaptiveAvgPool2d
+resnext101_32x8d,Linear
+resnext101_32x8d,BatchNorm2d
+resnext101_32x8d,ReLU
+resnext101_64x4d,"['Conv2d', 'BatchNorm2d', 'Conv2d', 'BatchNorm2d', 'Conv2d']"
+resnext101_64x4d,MaxPool2d
+resnext101_64x4d,Conv2d
+resnext101_64x4d,AdaptiveAvgPool2d
+resnext101_64x4d,Linear
+resnext101_64x4d,BatchNorm2d
+resnext101_64x4d,ReLU
+resnext50_32x4d,"['Conv2d', 'BatchNorm2d', 'Conv2d', 'BatchNorm2d', 'Conv2d']"
+resnext50_32x4d,MaxPool2d
+resnext50_32x4d,Conv2d
+resnext50_32x4d,AdaptiveAvgPool2d
+resnext50_32x4d,Linear
+resnext50_32x4d,BatchNorm2d
+resnext50_32x4d,ReLU
+shufflenet_v2_x0_5,"['Conv2d', 'BatchNorm2d', 'Conv2d', 'BatchNorm2d', 'ReLU']"
+shufflenet_v2_x0_5,MaxPool2d
+shufflenet_v2_x0_5,Conv2d
+shufflenet_v2_x0_5,Sequential
+shufflenet_v2_x0_5,Linear
+shufflenet_v2_x0_5,BatchNorm2d
+shufflenet_v2_x0_5,ReLU
+shufflenet_v2_x1_0,"['Conv2d', 'BatchNorm2d', 'Conv2d', 'BatchNorm2d', 'ReLU']"
+shufflenet_v2_x1_0,MaxPool2d
+shufflenet_v2_x1_0,Conv2d
+shufflenet_v2_x1_0,Sequential
+shufflenet_v2_x1_0,Linear
+shufflenet_v2_x1_0,BatchNorm2d
+shufflenet_v2_x1_0,ReLU
+shufflenet_v2_x1_5,"['Conv2d', 'BatchNorm2d', 'Conv2d', 'BatchNorm2d', 'ReLU']"
+shufflenet_v2_x1_5,MaxPool2d
+shufflenet_v2_x1_5,Conv2d
+shufflenet_v2_x1_5,Sequential
+shufflenet_v2_x1_5,Linear
+shufflenet_v2_x1_5,BatchNorm2d
+shufflenet_v2_x1_5,ReLU
+shufflenet_v2_x2_0,"['Conv2d', 'BatchNorm2d', 'Conv2d', 'BatchNorm2d', 'ReLU']"
+shufflenet_v2_x2_0,MaxPool2d
+shufflenet_v2_x2_0,Conv2d
+shufflenet_v2_x2_0,Sequential
+shufflenet_v2_x2_0,Linear
+shufflenet_v2_x2_0,BatchNorm2d
+shufflenet_v2_x2_0,ReLU
+squeezenet1_0,"['Conv2d', 'ReLU', 'MaxPool2d', 'Conv2d', 'ReLU']"
+squeezenet1_0,ReLU
+squeezenet1_0,Dropout
+squeezenet1_0,Conv2d
+squeezenet1_0,AdaptiveAvgPool2d
+squeezenet1_1,"['Conv2d', 'ReLU', 'MaxPool2d', 'Conv2d', 'ReLU']"
+squeezenet1_1,ReLU
+squeezenet1_1,Dropout
+squeezenet1_1,Conv2d
+squeezenet1_1,AdaptiveAvgPool2d
+swin_b,"['LayerNorm', 'LayerNorm', 'Linear', 'Linear', 'StochasticDepth']"
+swin_b,Conv2d
+swin_b,Permute
+swin_b,StochasticDepth
+swin_b,AdaptiveAvgPool2d
+swin_b,Linear
+swin_b,Dropout
+swin_b,GELU
+swin_b,Flatten
+swin_b,LayerNorm
+swin_s,"['LayerNorm', 'LayerNorm', 'Linear', 'Linear', 'StochasticDepth']"
+swin_s,Conv2d
+swin_s,Permute
+swin_s,StochasticDepth
+swin_s,AdaptiveAvgPool2d
+swin_s,Linear
+swin_s,Dropout
+swin_s,GELU
+swin_s,Flatten
+swin_s,LayerNorm
+swin_t,"['LayerNorm', 'LayerNorm', 'Linear', 'Linear', 'StochasticDepth']"
+swin_t,Conv2d
+swin_t,Permute
+swin_t,StochasticDepth
+swin_t,AdaptiveAvgPool2d
+swin_t,Linear
+swin_t,Dropout
+swin_t,GELU
+swin_t,Flatten
+swin_t,LayerNorm
+swin_v2_b,"['LayerNorm', 'LayerNorm', 'Linear', 'Linear', 'Linear']"
+swin_v2_b,Conv2d
+swin_v2_b,Permute
+swin_v2_b,StochasticDepth
+swin_v2_b,AdaptiveAvgPool2d
+swin_v2_b,Linear
+swin_v2_b,Dropout
+swin_v2_b,GELU
+swin_v2_b,Flatten
+swin_v2_b,LayerNorm
+swin_v2_b,ReLU
+swin_v2_s,"['LayerNorm', 'LayerNorm', 'Linear', 'Linear', 'Linear']"
+swin_v2_s,Conv2d
+swin_v2_s,Permute
+swin_v2_s,StochasticDepth
+swin_v2_s,AdaptiveAvgPool2d
+swin_v2_s,Linear
+swin_v2_s,Dropout
+swin_v2_s,GELU
+swin_v2_s,Flatten
+swin_v2_s,LayerNorm
+swin_v2_s,ReLU
+swin_v2_t,"['LayerNorm', 'LayerNorm', 'Linear', 'Linear', 'Linear']"
+swin_v2_t,Conv2d
+swin_v2_t,Permute
+swin_v2_t,StochasticDepth
+swin_v2_t,AdaptiveAvgPool2d
+swin_v2_t,Linear
+swin_v2_t,Dropout
+swin_v2_t,GELU
+swin_v2_t,Flatten
+swin_v2_t,LayerNorm
+swin_v2_t,ReLU
+vgg11,"['Conv2d', 'ReLU', 'MaxPool2d', 'Conv2d', 'ReLU']"
+vgg11,MaxPool2d
+vgg11,Conv2d
+vgg11,AdaptiveAvgPool2d
+vgg11,Linear
+vgg11,Dropout
+vgg11,ReLU
+vgg11_bn,"['Conv2d', 'BatchNorm2d', 'ReLU', 'MaxPool2d', 'Conv2d']"
+vgg11_bn,MaxPool2d
+vgg11_bn,Conv2d
+vgg11_bn,AdaptiveAvgPool2d
+vgg11_bn,Linear
+vgg11_bn,Dropout
+vgg11_bn,BatchNorm2d
+vgg11_bn,ReLU
+vgg13,"['Conv2d', 'ReLU', 'Conv2d', 'ReLU', 'MaxPool2d']"
+vgg13,Linear
+vgg13,Dropout
+vgg13,AdaptiveAvgPool2d
+vgg13,ReLU
+vgg13_bn,"['Conv2d', 'BatchNorm2d', 'ReLU', 'Conv2d', 'BatchNorm2d']"
+vgg13_bn,MaxPool2d
+vgg13_bn,AdaptiveAvgPool2d
+vgg13_bn,Linear
+vgg13_bn,Dropout
+vgg13_bn,ReLU
+vgg16,"['Conv2d', 'ReLU', 'Conv2d', 'ReLU', 'MaxPool2d']"
+vgg16,Conv2d
+vgg16,AdaptiveAvgPool2d
+vgg16,Linear
+vgg16,Dropout
+vgg16,ReLU
+vgg16_bn,"['Conv2d', 'BatchNorm2d', 'ReLU', 'Conv2d', 'BatchNorm2d']"
+vgg16_bn,MaxPool2d
+vgg16_bn,Conv2d
+vgg16_bn,AdaptiveAvgPool2d
+vgg16_bn,Linear
+vgg16_bn,Dropout
+vgg16_bn,BatchNorm2d
+vgg16_bn,ReLU
+vgg19,"['Conv2d', 'ReLU', 'Conv2d', 'ReLU', 'MaxPool2d']"
+vgg19,Conv2d
+vgg19,AdaptiveAvgPool2d
+vgg19,Linear
+vgg19,Dropout
+vgg19,ReLU
+vgg19_bn,"['Conv2d', 'BatchNorm2d', 'ReLU', 'Conv2d', 'BatchNorm2d']"
+vgg19_bn,MaxPool2d
+vgg19_bn,AdaptiveAvgPool2d
+vgg19_bn,Linear
+vgg19_bn,Dropout
+vgg19_bn,ReLU
+vit_b_16,"['Dropout', 'LayerNorm', 'NonDynamicallyQuantizableLinear', 'Dropout', 'LayerNorm']"
+vit_b_16,Conv2d
+vit_b_16,Linear
+vit_b_16,Dropout
+vit_b_16,GELU
+vit_b_16,LayerNorm
+vit_b_32,"['Dropout', 'LayerNorm', 'NonDynamicallyQuantizableLinear', 'Dropout', 'LayerNorm']"
+vit_b_32,Conv2d
+vit_b_32,Linear
+vit_b_32,Dropout
+vit_b_32,GELU
+vit_b_32,LayerNorm
+vit_h_14,"['Dropout', 'LayerNorm', 'NonDynamicallyQuantizableLinear', 'Dropout', 'LayerNorm']"
+vit_h_14,Conv2d
+vit_h_14,Linear
+vit_h_14,Dropout
+vit_h_14,GELU
+vit_h_14,LayerNorm
+vit_l_16,"['Dropout', 'LayerNorm', 'NonDynamicallyQuantizableLinear', 'Dropout', 'LayerNorm']"
+vit_l_16,Conv2d
+vit_l_16,Linear
+vit_l_16,Dropout
+vit_l_16,GELU
+vit_l_16,LayerNorm
+vit_l_32,"['Dropout', 'LayerNorm', 'NonDynamicallyQuantizableLinear', 'Dropout', 'LayerNorm']"
+vit_l_32,Conv2d
+vit_l_32,Linear
+vit_l_32,Dropout
+vit_l_32,GELU
+vit_l_32,LayerNorm
+wide_resnet101_2,"['Conv2d', 'BatchNorm2d', 'Conv2d', 'BatchNorm2d', 'Conv2d']"
+wide_resnet101_2,MaxPool2d
+wide_resnet101_2,Conv2d
+wide_resnet101_2,AdaptiveAvgPool2d
+wide_resnet101_2,Linear
+wide_resnet101_2,BatchNorm2d
+wide_resnet101_2,ReLU
+wide_resnet50_2,"['Conv2d', 'BatchNorm2d', 'Conv2d', 'BatchNorm2d', 'Conv2d']"
+wide_resnet50_2,MaxPool2d
+wide_resnet50_2,Conv2d
+wide_resnet50_2,AdaptiveAvgPool2d
+wide_resnet50_2,Linear
+wide_resnet50_2,BatchNorm2d
+wide_resnet50_2,ReLU
